@@ -17,7 +17,7 @@
 		</header>
 
 		@if(count($allNotes) === 0 )
-				<h1 class="text-5xl text-gray-400 "> Add your first Note </h1>
+				<h1 class="text-5xl text-gray-400 "> Add your first Note. </h1>
 		@endif
 
 		@foreach($allNotes as $singleNote)
